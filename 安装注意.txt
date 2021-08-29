@@ -1,0 +1,29 @@
+
+D:\gopath\src\comebackGO
+
+gopath是一个项目目录，里面要有src,bin,src三个目录。
+其中项目的目录又在src下，比如comebackGO
+然后再在comebackGO下创建go文件
+
+
+
+goroot就是一个go的sdk的安装目录
+
+
+剩下goland就用最新的，go也装最近即可！别折腾
+
+
+这次就练，别在于提交了！
+
+安装地方方库，直接从githuh下载
+在按照导入目录，比如
+
+	"github.com/antchfx/htmlquery"
+	"github.com/gocolly/colly"
+
+就在goroot的src下创建一个github.com目录，以此类推，创建文件目录即可
+
+git clone https://github.com/antchfx/htmlquery.git
+git clone https://github.com/gocolly/colly.git
+
+
